@@ -1,0 +1,50 @@
+
+.clicktoconnect{
+ 
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px rgb(255, 255, 255);
+}
+.logo {
+    width: 400px;         /* The new massive width */
+    max-width: 90vw;      /* Ensures it never gets wider than 90% of the screen */
+    height: auto;         /* Keeps the proportions perfect */
+    display: block;       /* Helps with alignment at larger sizes */
+    margin: 0 auto;       /* Centers it if it's in its own container */
+}
+
+
+.navbar-text{
+    display: flex;
+    padding:0px 20px;
+    align-items: center;
+}
+#img11{
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    
+}
+#img2{
+    width: auto;
+    height: 50px;
+    padding: 10px;
+  
+}
+#img3{
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    
+}
+.home{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+.skills{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+.projects{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;font-family: 'Times New Roman', Times, serif;
+}

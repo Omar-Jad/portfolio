@@ -1,0 +1,349 @@
+.App {
+  text-align: center;
+
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #502020;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.custom-tabs.nav-pills {
+  width: 100%;
+  max-width: 800px; 
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.1); 
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.custom-tabs .nav-item {
+  flex: 1; 
+  text-align: center;
+}
+
+.custom-tabs .nav-link {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem; 
+  padding: 18px 30px;
+  border-radius: 0; 
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.custom-tabs .nav-link.active {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #8f4646 111.58%);
+  color: white;
+  border-radius: 50px; 
+}
+
+
+.custom-tabs .nav-link:hover {
+  background-color: rgba(88, 36, 36, 0.2);
+  color: #fff;
+}
+
+/* Contact Section Base */
+.contact {
+  padding: 60px 0;
+  background: linear-gradient(90.21deg, #121212 -5.91%, #171717 111.58%);
+  color: #fff;
+}
+
+.contact img {
+  width: 90%;
+  animation: updown 3s linear infinite;
+}
+
+
+
+.contact h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* Form Inputs */
+.contact form input, 
+.contact form textarea {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  color: #fff;
+  margin: 0 0 16px 0;
+  padding: 18px 26px;
+  font-weight: 500;
+ 
+}
+
+
+
+.contact form input::placeholder, 
+.contact form textarea::placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+
+
+
+
+.contact form button {
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  padding: 14px 48px;
+  font-size: 18px;
+  margin-top: 25px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  border: 1px solid #fff;
+}
+
+.contact form button span {
+  z-index: 1;
+  position: relative;
+}
+
+
+
+
+.contact .status-msg {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.contact .danger {
+  color: #ff4d4d;
+}
+
+.contact .success {
+  color: #28a745;
+}
+
+/* Newsletter Container */
+.newsletter-bx {
+  background: #121212; /* Dark background */
+  border-radius: 55px;
+  color: #fff;
+  padding: 85px 125px;
+  margin-bottom: -150px; /* Overlap effect for footers */
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.newsletter-bx h3 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  font-size: 2rem;
+}
+
+/* Form Styling */
+.new-email-bx {
+  background: #fff;
+  padding: 5px;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.new-email-bx input {
+  width: 100%;
+  color: #121212;
+  font-weight: 500;
+  background: transparent;
+  border: 0;
+  padding: 0 15px;
+  outline: none;
+}
+
+.new-email-bx button {
+  background: linear-gradient(90.21deg, #aa8a9d -5.91%, #000000 111.58%);
+  padding: 20px 65px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 18px;
+  border: none;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+/* Alert Styling */
+.newsletter-bx .alert {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.newsletter-bx {
+
+  border-radius: 55px;
+  color: #ffffff; /* Dark text for the white box */
+  padding: 85px 125px;
+  
+  /* The Magic Alignment */
+  margin-top: -150px;   /* Pulls the box UP into the Contact section */
+  margin-bottom: 80px;  /* Pushes the Footer content (logo/socials) DOWN */
+  
+  position: relative;
+  z-index: 5;
+  text-align: left;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+  .newsletter-bx h3 {
+    margin-bottom: 30px;
+     color: white;
+  }
+  .new-email-bx {
+    flex-direction: column;
+    background: transparent;
+    color: white;
+  }
+  .new-email-bx input {
+       color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+  .new-email-bx button {
+         color: white;
+    width: 100%;
+  }
+
+
+.footer {
+  padding: 80px 0 50px 0;
+
+  position: relative;
+  width: 100%;
+  z-index: 2; /* Ensures it sits above any stray background layers */
+  display: block; /* Ensures it's not accidentally set to display: none */
+}
+
+/* Ensure the logo image is visible */
+footer .logo {
+  display: block;
+  /* Adjust these numbers until your screen shakes */
+  width: 350px !important; 
+  min-width: 300px;
+  height: auto;
+  
+  /* Remove any height limits that might be holding it back */
+  max-height: none !important; 
+  
+  /* Ensures the logo doesn't align weirdly when large */
+  margin-left: 0; 
+  margin-bottom: 30px;
+  
+  object-fit: contain;
+}
+
+/* On mobile, we don't want it to overflow the screen */
+@media (max-width: 767px) {
+  footer .logo {
+    width: 250px !important;
+    margin: 0 auto 30px auto; /* Centers it on mobile */
+  }
+}
+/* Social Icons Wrapper */
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center icons on mobile */
+  margin-bottom: 20px;
+}
+
+/* Individual Icon Links */
+.social-icon a {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1); /* Subtle circle background */
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 15px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon a:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  transform: translateY(-3px); /* Little float effect */
+}
+
+/* Force icons inside the circles to be consistent sizes */
+.social-icon a img {
+  width: 20px !important; /* Forces the data images to stay small */
+  height: auto;
+  filter: brightness(1);
+}
+
+
+
+/* Copyright Text */
+footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b8b8b8;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Media Query for Desktop alignment */
+@media (min-width: 576px) {
+  .social-icon {
+    justify-content: flex-end; /* Aligns icons to the right on larger screens */
+  }
+  footer p {
+    text-align: right;
+  }
+}

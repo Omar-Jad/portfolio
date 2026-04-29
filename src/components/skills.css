@@ -1,0 +1,27 @@
+.containerr {
+  width: 90%;          
+  max-width: 1200px;   
+  margin: 0 auto;      
+  background: #151515; 
+  padding: 80px 50px;   
+  position: relative;
+
+  margin-top: 120px; 
+
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+}
+
+.progress{
+    width: 100px; 
+  height: 100px;
+  margin: 0 auto;
+}
+.CircularProgressbar {
+  background: transparent;
+}
+.text{
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+}

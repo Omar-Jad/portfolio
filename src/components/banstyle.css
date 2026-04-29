@@ -1,0 +1,70 @@
+.Banner {
+    margin: 0;
+    padding: 100px 0; 
+    min-height: 100vh;
+    
+    display: flex;
+    align-items: center;
+}
+
+
+.flexx {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+#img1 {
+    width: 100%;      
+    max-width: 250px;  
+    height: auto;
+    display: block;
+    margin-left: auto; 
+    
+}
+.welcome {
+    color: white;
+    width: fit-content; 
+    padding: 10px 20px; 
+    border: 2px solid white; 
+    box-shadow: 3px 3px 0px rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+.wrap{
+    color: white;
+    padding-top: 100px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: white;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+.clicktoconnectt{
+
+     border: 2px solid black;
+    box-shadow: 3px 3px 0px rgb(255, 255, 255);
+    size: 100px;
+}
+.align-items-left{
+    text-align: left;
+}
+
+
+
+/* This makes the link a "clickable box" */
+.image-link {
+    display: inline-block;
+    z-index: 10; /* Brings the link to the very front */
+    position: relative;
+    cursor: pointer !important;
+}
